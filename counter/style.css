@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkkhaki;
+}
+.app-container{
+    width: 500px;
+    background-color: gray;
+    padding: 2rem;
+}
+.title{
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.screen{
+    font-size: 3rem;
+}
+.increase, .decrement{
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 5px;
+    width: 50px;
+}
+.decrement:hover, .increase:hover{
+    background-color: black;
+    color: white;
+}
