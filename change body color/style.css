@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+}
+h1{
+    padding: 1rem;
+}
+input[type="color"]{
+    width: 200px;
+    height: 40px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: transparent;
+}
